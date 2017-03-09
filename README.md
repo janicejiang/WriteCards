@@ -1,24 +1,37 @@
-# README
+# Planning our application
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+  1. Answer Questions
+    - What are we building?
+    - Who are we building it for?
+    - What features do we need to have?
+  2. User Stories
+  3. Model our Data
+  4. Think through the pages we need in our app
 
-Things you may want to cover:
+## Questions
 
-* Ruby version
+  1. What are we building? 我在做一个写卡片的网站.
+  2. Who are we building it for? 我自己, maybe 其他写卡片的人.
 
-* System dependencies
+  3. What features do we need to have?
+    - 卡片
+      - CRUD
+    - User (Devise)
 
-* Configuration
+## User Stories
+As a blank, I want to be able to blank, so that blank.
 
-* Database creation
+1. 作为一个用户, 我希望能够创建卡片, 用来记录我的笔记或者思考.
+2. 作为一个用户, 我希望能修改/删除卡片, 以管理我的卡片.
 
-* Database initialization
+## Modeling our Data
 
-* How to run the test suite
+**Card**
+- title:string
+- content:text
 
-* Services (job queues, cache servers, search engines, etc.)
+**User** (Devise)
 
-* Deployment instructions
-
-* ...
+## Think through the pages we need in our app
+- Cards
+  - index/show/new/edit
